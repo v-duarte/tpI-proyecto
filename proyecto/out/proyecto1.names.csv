@@ -1,0 +1,293 @@
+misproyectos/proyecto1/out/proyecto1.elf:1a0026d0 000000a4 t uartProcessIRQ
+misproyectos/proyecto1/out/proyecto1.elf:10000104 00000004 b i.11906
+misproyectos/proyecto1/out/proyecto1.elf:10000108 00000004 b rxIsrCallbackUART0
+misproyectos/proyecto1/out/proyecto1.elf:1000010c 00000004 b rxIsrCallbackUART2
+misproyectos/proyecto1/out/proyecto1.elf:10000110 00000004 b rxIsrCallbackUART3
+misproyectos/proyecto1/out/proyecto1.elf:10000114 00000004 b txIsrCallbackUART0
+misproyectos/proyecto1/out/proyecto1.elf:10000118 00000004 b txIsrCallbackUART2
+misproyectos/proyecto1/out/proyecto1.elf:1000011c 00000004 b txIsrCallbackUART3
+misproyectos/proyecto1/out/proyecto1.elf:1a003b7c 00000048 t lpcUarts
+misproyectos/proyecto1/out/proyecto1.elf:100000e5 00000001 b consolePrint
+misproyectos/proyecto1/out/proyecto1.elf:100000e6 00000001 b debugPrint
+misproyectos/proyecto1/out/proyecto1.elf:1a0038ec 00000004 t InitClkStates
+misproyectos/proyecto1/out/proyecto1.elf:1a0038f0 00000074 t pinmuxing
+misproyectos/proyecto1/out/proyecto1.elf:1a001000 00000044 t Board_LED_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a001044 00000040 t Board_TEC_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a001084 00000040 t Board_GPIO_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a0010c4 00000030 t Board_ADC_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a0010f4 00000038 t Board_SPI_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a00112c 00000024 t Board_I2C_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a003968 00000008 t GpioButtons
+misproyectos/proyecto1/out/proyecto1.elf:1a003970 0000000c t GpioLeds
+misproyectos/proyecto1/out/proyecto1.elf:1a00397c 00000012 t GpioPorts
+misproyectos/proyecto1/out/proyecto1.elf:1a0011ac 00000014 t Chip_SSP_GetClockIndex
+misproyectos/proyecto1/out/proyecto1.elf:1a0011c0 00000018 t Chip_SSP_GetPeriphClockIndex
+misproyectos/proyecto1/out/proyecto1.elf:1000000c 00000038 d i2c
+misproyectos/proyecto1/out/proyecto1.elf:1a0014b0 0000002c t Chip_TIMER_GetClockIndex
+misproyectos/proyecto1/out/proyecto1.elf:1a001500 00000014 t Chip_ADC_GetClockIndex
+misproyectos/proyecto1/out/proyecto1.elf:1a001514 00000032 t getClkDiv
+misproyectos/proyecto1/out/proyecto1.elf:1a003994 00000048 t InitClkStates
+misproyectos/proyecto1/out/proyecto1.elf:1a001864 000000a0 t pll_calc_divs
+misproyectos/proyecto1/out/proyecto1.elf:1a001904 0000010c t pll_get_frac
+misproyectos/proyecto1/out/proyecto1.elf:1a001a10 0000004c t Chip_Clock_FindBaseClock
+misproyectos/proyecto1/out/proyecto1.elf:1a001c84 00000022 t Chip_Clock_GetDivRate
+misproyectos/proyecto1/out/proyecto1.elf:100000e8 00000008 b audio_usb_pll_freq
+misproyectos/proyecto1/out/proyecto1.elf:1a0039e8 0000006c t periph_to_base
+misproyectos/proyecto1/out/proyecto1.elf:1a001df0 0000002c t Chip_UART_GetIndex
+misproyectos/proyecto1/out/proyecto1.elf:1a003a54 00000008 t UART_BClock
+misproyectos/proyecto1/out/proyecto1.elf:1a003a5c 00000008 t UART_PClock
+misproyectos/proyecto1/out/proyecto1.elf:10000044 00000004 d ClockSpeed
+misproyectos/proyecto1/out/proyecto1.elf:1a001fe4 00000034 t gpioObtainPinInit
+misproyectos/proyecto1/out/proyecto1.elf:1a002296 00000002 t errorOcurred
+misproyectos/proyecto1/out/proyecto1.elf:1a002298 00000002 t doNothing
+misproyectos/proyecto1/out/proyecto1.elf:10000048 00000040 d timer_dd
+misproyectos/proyecto1/out/proyecto1.elf:1a003b4c 00000030 t timer_sd
+misproyectos/proyecto1/out/proyecto1.elf:1a002504 00000030 t i2cHardwareInit
+misproyectos/proyecto1/out/proyecto1.elf:1a002534 00000040 t i2cHardwareRead
+misproyectos/proyecto1/out/proyecto1.elf:1a002574 00000040 t i2cHardwareWrite
+misproyectos/proyecto1/out/proyecto1.elf:100000f0 00000004 b callBackFuncParams
+misproyectos/proyecto1/out/proyecto1.elf:100000f8 00000008 b tickCounter
+misproyectos/proyecto1/out/proyecto1.elf:10000100 00000004 b tickHookFunction
+misproyectos/proyecto1/out/proyecto1.elf:10000120 00000004 b g_hUsb
+misproyectos/proyecto1/out/proyecto1.elf:1a002c90 0000009c t enableGPIOIrq
+misproyectos/proyecto1/out/proyecto1.elf:1a002d2c 00000048 t disableGPIOIrq
+misproyectos/proyecto1/out/proyecto1.elf:1a002d74 00000010 t clearInterrupt
+misproyectos/proyecto1/out/proyecto1.elf:1a002d84 0000005c t serveInterrupt
+misproyectos/proyecto1/out/proyecto1.elf:1a002de0 0000000c t triggerExpired
+misproyectos/proyecto1/out/proyecto1.elf:1a002dec 0000000c t timerExpired
+misproyectos/proyecto1/out/proyecto1.elf:10000090 00000001 d firstTime.11723
+misproyectos/proyecto1/out/proyecto1.elf:10000094 00000048 d ultrasonicSensors
+misproyectos/proyecto1/out/proyecto1.elf:1a003c0c 00000003 t ultrasonicSensorsIrqMap
+misproyectos/proyecto1/out/proyecto1.elf:1a003c14 t __init_array_end
+misproyectos/proyecto1/out/proyecto1.elf:1a003c10 b __preinit_array_end
+misproyectos/proyecto1/out/proyecto1.elf:1a003c10 t __init_array_start
+misproyectos/proyecto1/out/proyecto1.elf:1a003c10 b __preinit_array_start
+misproyectos/proyecto1/out/proyecto1.elf:1a001aa8 0000001c T Chip_Clock_GetDividerSource
+misproyectos/proyecto1/out/proyecto1.elf:1a0016c6 0000000e T Chip_I2CM_Xfer
+misproyectos/proyecto1/out/proyecto1.elf:1a002920 000000c8 T receiveBytesUntilReceiveStringOrTimeout
+misproyectos/proyecto1/out/proyecto1.elf:1a00247c 00000044 T TIMER2_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0027a4 00000014 T uartRxRead
+misproyectos/proyecto1/out/proyecto1.elf:1a0025b4 0000000e T i2cInit
+misproyectos/proyecto1/out/proyecto1.elf:1a000184 00000002 W DebugMon_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W RIT_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a080000 A __top_MFlashA512
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000114 T __section_table_start
+misproyectos/proyecto1/out/proyecto1.elf:1a000ea0 0000000c T HC_Scan
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002afc 00000088 T int64ToString
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W I2C0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002848 0000001e T uartReadByte
+misproyectos/proyecto1/out/proyecto1.elf:1a0011a4 00000008 T __stdio_init
+misproyectos/proyecto1/out/proyecto1.elf:1a002c50 0000003e T delayRead
+misproyectos/proyecto1/out/proyecto1.elf:1a00017a 00000002 W HardFault_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a001280 00000120 T handleMasterXferState
+misproyectos/proyecto1/out/proyecto1.elf:1a000000 A __vectors_start__
+misproyectos/proyecto1/out/proyecto1.elf:1a0015ba 0000000c T Chip_ADC_SetResolution
+misproyectos/proyecto1/out/proyecto1.elf:1a0026a4 0000002c T SysTick_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a001e70 00000040 T Chip_UART_SetBaud
+misproyectos/proyecto1/out/proyecto1.elf:10000008 00000001 D uartDebug
+misproyectos/proyecto1/out/proyecto1.elf:1a000ec2 00000002 W initialise_monitor_handles
+misproyectos/proyecto1/out/proyecto1.elf:1a002bbc 00000008 T printString
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SDIO_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000186 00000002 W PendSV_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a000178 00000002 W NMI_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a000eb8 0000000a T flotantecarga
+misproyectos/proyecto1/out/proyecto1.elf:1a003c1c R __exidx_end
+misproyectos/proyecto1/out/proyecto1.elf:1a000150 T __data_section_table_end
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W I2C1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W UART1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W CAN1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0025c2 00000028 T i2cRead
+misproyectos/proyecto1/out/proyecto1.elf:1a00069c 0000001c T esp01CleanRxBuffer
+misproyectos/proyecto1/out/proyecto1.elf:100000e4 00000001 B i2cNumber
+misproyectos/proyecto1/out/proyecto1.elf:53ff69ca A __valid_user_code_checksum
+misproyectos/proyecto1/out/proyecto1.elf:1a003c1c R _etext
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W USB1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000d10 00000058 T esp01_init
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W I2S0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000538 00000158 T loop
+misproyectos/proyecto1/out/proyecto1.elf:1a002866 00000080 T waitForReceiveStringOrTimeout
+misproyectos/proyecto1/out/proyecto1.elf:1a000a04 000000b4 T esp01SendTPCIPDataToServer
+misproyectos/proyecto1/out/proyecto1.elf:1a0024c0 00000044 T TIMER3_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a001d26 0000000c T Chip_Clock_GetBaseClocktHz
+misproyectos/proyecto1/out/proyecto1.elf:1a0001bc 0000000a T UART0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001a8 00000012 T bss_init
+misproyectos/proyecto1/out/proyecto1.elf:1a0014e8 00000018 T Chip_TIMER_Reset
+misproyectos/proyecto1/out/proyecto1.elf:1a002ea4 00000044 T ultrasonicSensorGetDistance
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a00142c 00000030 T Chip_I2C_MasterStateHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002fa8 T __aeabi_uldivmod
+misproyectos/proyecto1/out/proyecto1.elf:100006d0 ? _noinit
+misproyectos/proyecto1/out/proyecto1.elf:1a0029e8 00000040 T receiveBytesUntilReceiveStringOrTimeoutBlocking
+misproyectos/proyecto1/out/proyecto1.elf:1a002a42 00000016 T uartWriteString
+misproyectos/proyecto1/out/proyecto1.elf:10000600 00000004 B SystemCoreClock
+misproyectos/proyecto1/out/proyecto1.elf:1a001e1c 00000054 T Chip_UART_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W ADC0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000180 00000002 W UsageFault_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a001da4 0000004c T Chip_Clock_GetRate
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002bac 00000010 T printInitUart
+misproyectos/proyecto1/out/proyecto1.elf:1a000f88 0000006c T Board_SetupClocking
+misproyectos/proyecto1/out/proyecto1.elf:20008000 A __top_RamAHB32
+misproyectos/proyecto1/out/proyecto1.elf:1a0013fc 00000030 T Chip_I2C_SetMasterEventHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002fd8 000002d0 T __udivmoddi4
+misproyectos/proyecto1/out/proyecto1.elf:1a003964 00000004 T ExtRateIn
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W IntDefaultHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000300 T __CRP_WORD_END__
+misproyectos/proyecto1/out/proyecto1.elf:1a0006b8 000001f8 T esp01SendTCPIPData
+misproyectos/proyecto1/out/proyecto1.elf:1a002ef2 0000000a T GPIO1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SSP0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002774 00000018 T uartRxReady
+misproyectos/proyecto1/out/proyecto1.elf:1a003c14 R __exidx_start
+misproyectos/proyecto1/out/proyecto1.elf:1a0002fc 00000004 T CRP_WORD
+misproyectos/proyecto1/out/proyecto1.elf:1a0032ac 00000048 T __libc_init_array
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W ADC1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:10000004 00000004 D espResponseBufferSize
+misproyectos/proyecto1/out/proyecto1.elf:1a001174 00000030 T Board_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a000f4e 00000002 W _init
+misproyectos/proyecto1/out/proyecto1.elf:100000e0 00000004 B dist
+misproyectos/proyecto1/out/proyecto1.elf:1a000114 T __data_section_table
+misproyectos/proyecto1/out/proyecto1.elf:1a002b84 00000028 T intToStringGlobal
+misproyectos/proyecto1/out/proyecto1.elf:1a000300 000000d0 T RTC_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W RTC_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:100006d0 B _ebss
+misproyectos/proyecto1/out/proyecto1.elf:1a0023fc 00000040 T TIMER0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000ec4 00000088 T Reset_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a002628 0000007c T tickInit
+misproyectos/proyecto1/out/proyecto1.elf:20010000 A __top_RamAHB_ETB16
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SPI_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0016d4 00000024 T Chip_I2CM_XferBlocking
+misproyectos/proyecto1/out/proyecto1.elf:1a0013c4 00000038 T Chip_I2C_SetClockRate
+misproyectos/proyecto1/out/proyecto1.elf:1a0004a6 0000003a T RTC_read_control_registers
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W LCD_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a001a5c 0000004c T Chip_Clock_EnableCrystal
+misproyectos/proyecto1/out/proyecto1.elf:10008000 A __top_RamLoc32
+misproyectos/proyecto1/out/proyecto1.elf:10000009 00000001 D uartEsp01
+misproyectos/proyecto1/out/proyecto1.elf:1a00018a 0000001e T data_init
+misproyectos/proyecto1/out/proyecto1.elf:1a003304 00000020 T strcat
+misproyectos/proyecto1/out/proyecto1.elf:1a00243c 00000040 T TIMER1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0013a0 00000024 T Chip_I2C_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a002a58 0000000a T UART2_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002bc4 00000010 T printEnter
+misproyectos/proyecto1/out/proyecto1.elf:1a001c18 0000006c T Chip_Clock_GetMainPLLHz
+misproyectos/proyecto1/out/proyecto1.elf:1a000450 00000056 T RTC_read_time
+misproyectos/proyecto1/out/proyecto1.elf:1a003a64 000000e6 T gpioPinsInit
+misproyectos/proyecto1/out/proyecto1.elf:1a002a28 0000001a T uartWriteByte
+misproyectos/proyecto1/out/proyecto1.elf:1a0011d8 00000012 T Chip_SSP_SetClockRate
+misproyectos/proyecto1/out/proyecto1.elf:1a002efc 0000000a T GPIO2_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a00229c 00000120 T Timer_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a0023bc 00000008 T Timer_microsecondsToTicks
+misproyectos/proyecto1/out/proyecto1.elf:1a001d00 00000026 T Chip_Clock_GetBaseClock
+misproyectos/proyecto1/out/proyecto1.elf:100000e0 B _bss
+misproyectos/proyecto1/out/proyecto1.elf:1a001588 00000032 T Chip_ADC_SetSampleRate
+misproyectos/proyecto1/out/proyecto1.elf:1a003334 0000002e T strstr
+misproyectos/proyecto1/out/proyecto1.elf:1a002c30 00000020 T delayInit
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W I2S1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0011ea 0000003e T Chip_SSP_SetBitRate
+misproyectos/proyecto1/out/proyecto1.elf:1a0014ac 00000002 T Chip_GPIO_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a003990 00000004 T OscRateIn
+misproyectos/proyecto1/out/proyecto1.elf:1a0027cc 0000007c T uartInit
+misproyectos/proyecto1/out/proyecto1.elf:100006d0 ? _end_noinit
+misproyectos/proyecto1/out/proyecto1.elf:10008000 A _vStackTop
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SSP1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0014dc 0000000c T Chip_TIMER_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a000178 T __bss_section_table_end
+misproyectos/proyecto1/out/proyecto1.elf:1a002018 000001ac T gpioInit
+misproyectos/proyecto1/out/proyecto1.elf:1a001fc4 00000004 T sleepUntilNextInterrupt
+misproyectos/proyecto1/out/proyecto1.elf:1a0032a8 00000002 W __aeabi_ldiv0
+misproyectos/proyecto1/out/proyecto1.elf:1a002a6c 0000001c T USB0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:10000124 00000013 B rtc
+misproyectos/proyecto1/out/proyecto1.elf:1a00145c 00000018 T Chip_I2C_IsStateChanged
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SCT_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a001ac4 0000001c T Chip_Clock_GetDividerDivisor
+misproyectos/proyecto1/out/proyecto1.elf:1a0002fc T __CRP_WORD_START__
+misproyectos/proyecto1/out/proyecto1.elf:1a000bbc 00000088 T esp01ShowWiFiNetworks
+misproyectos/proyecto1/out/proyecto1.elf:1a0032f4 00000010 T memset
+misproyectos/proyecto1/out/proyecto1.elf:1a00017c 00000002 W MemManage_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a000690 0000000c T main
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W WDT_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000ab8 00000104 T esp01ConnectToWifiAP
+misproyectos/proyecto1/out/proyecto1.elf:2000c000 A __top_RamAHB16
+misproyectos/proyecto1/out/proyecto1.elf:1008a000 A __top_RamLoc40
+misproyectos/proyecto1/out/proyecto1.elf:1a000182 00000002 W SVC_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a0023c4 00000038 T Timer_EnableCompareMatch
+misproyectos/proyecto1/out/proyecto1.elf:10000608 000000c8 B globalStrConvertBuff
+misproyectos/proyecto1/out/proyecto1.elf:1a00278c 00000018 T uartTxReady
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a001d34 0000003c T Chip_Clock_EnableOpts
+misproyectos/proyecto1/out/proyecto1.elf:1a001ae0 000000b8 T Chip_Clock_GetClockInputHz
+misproyectos/proyecto1/out/proyecto1.elf:1a001b98 00000080 T Chip_Clock_CalcMainPLLValue
+misproyectos/proyecto1/out/proyecto1.elf:1a001f8c 00000038 T SystemInit
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002bf8 00000038 T delay
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W QEI_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000150 T __bss_section_table
+misproyectos/proyecto1/out/proyecto1.elf:1a0021c4 0000006a T gpioWrite
+misproyectos/proyecto1/out/proyecto1.elf:1a000f4c 00000002 W _fini
+misproyectos/proyecto1/out/proyecto1.elf:1a001548 00000040 T Chip_ADC_Init
+misproyectos/proyecto1/out/proyecto1.elf:10000604 00000004 B g_pUsbApi
+misproyectos/proyecto1/out/proyecto1.elf:1a000f50 00000038 T Board_SetupMuxing
+misproyectos/proyecto1/out/proyecto1.elf:1a001eb0 000000dc T Chip_UART_SetBaudFDR
+misproyectos/proyecto1/out/proyecto1.elf:1a002604 0000000c T tickRead
+misproyectos/proyecto1/out/proyecto1.elf:10000088 00000008 D tickRateMS
+misproyectos/proyecto1/out/proyecto1.elf:1a002df8 000000ac T ultrasonicSensorInit
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W ETH_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:10000000 ? _end_uninit_RESERVED
+misproyectos/proyecto1/out/proyecto1.elf:1a0028e6 0000003a T waitForReceiveStringOrTimeoutBlocking
+misproyectos/proyecto1/out/proyecto1.elf:1a0027b8 00000014 T uartTxWrite
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W CAN0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0015c6 00000100 T Chip_I2CM_XferHandler
+misproyectos/proyecto1/out/proyecto1.elf:10000000 D _data
+misproyectos/proyecto1/out/proyecto1.elf:10000000 00000004 D clockRateHz
+misproyectos/proyecto1/out/proyecto1.elf:100006d0 B _pvHeapStart
+misproyectos/proyecto1/out/proyecto1.elf:1a0004f4 00000044 T setup
+misproyectos/proyecto1/out/proyecto1.elf:1a000eac 0000000c T init_pulsador
+misproyectos/proyecto1/out/proyecto1.elf:1a000178 T __section_table_end
+misproyectos/proyecto1/out/proyecto1.elf:1a000e94 0000000c T HC_init
+misproyectos/proyecto1/out/proyecto1.elf:1a0008b0 00000154 T esp01ConnectToServer
+misproyectos/proyecto1/out/proyecto1.elf:1a001228 00000038 T Chip_SSP_Init
+misproyectos/proyecto1/out/proyecto1.elf:1a002bd4 00000024 T printIntFormat
+misproyectos/proyecto1/out/proyecto1.elf:1a001474 00000038 T Chip_I2C_EventHandlerPolling
+misproyectos/proyecto1/out/proyecto1.elf:1a000d68 0000012c T sendMessage
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GINT0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0003d0 00000080 T RTC_write_time
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W DAC_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0025ea 00000018 T i2cWrite
+misproyectos/proyecto1/out/proyecto1.elf:1a001150 00000024 T Board_Debug_Init
+misproyectos/proyecto1/out/proyecto1.elf:1000019c 00000064 B tcpIpDataToSend
+misproyectos/proyecto1/out/proyecto1.elf:100000dc D _edata
+misproyectos/proyecto1/out/proyecto1.elf:10000138 00000064 B date
+misproyectos/proyecto1/out/proyecto1.elf:1a001260 00000020 T Chip_I2C_EventHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0016f8 00000158 T Chip_SetupCoreClock
+misproyectos/proyecto1/out/proyecto1.elf:1a002ee8 0000000a T GPIO0_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0004e0 00000012 T bcdToDec
+misproyectos/proyecto1/out/proyecto1.elf:1a000000 00000040 T g_pfnVectors
+misproyectos/proyecto1/out/proyecto1.elf:1a001850 00000014 T SystemCoreClockUpdate
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W DMA_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W EVRT_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1b080000 A __top_MFlashB512
+misproyectos/proyecto1/out/proyecto1.elf:1a000c44 000000c4 T esp01Init
+misproyectos/proyecto1/out/proyecto1.elf:1a0032a8 00000002 W __aeabi_idiv0
+misproyectos/proyecto1/out/proyecto1.elf:1a00017e 00000002 W BusFault_Handler
+misproyectos/proyecto1/out/proyecto1.elf:1a003324 00000010 T strlen
+misproyectos/proyecto1/out/proyecto1.elf:1a001d70 00000034 T Chip_Clock_Enable
+misproyectos/proyecto1/out/proyecto1.elf:1a002a62 0000000a T UART3_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W M0APP_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a00222e 00000068 T gpioRead
+misproyectos/proyecto1/out/proyecto1.elf:1a002a88 00000074 T boardInit
+misproyectos/proyecto1/out/proyecto1.elf:1a000040 000000d4 T g_pfnVendorVectors
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GINT1_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a002f08 T __aeabi_ldivmod
+misproyectos/proyecto1/out/proyecto1.elf:1a002610 00000018 T tickPowerSet
+misproyectos/proyecto1/out/proyecto1.elf:1a000d08 00000008 T stopProgramError
+misproyectos/proyecto1/out/proyecto1.elf:10000200 00000400 B espResponseBuffer
+misproyectos/proyecto1/out/proyecto1.elf:1a001ca8 00000058 T Chip_Clock_SetBaseClock
+misproyectos/proyecto1/out/proyecto1.elf:1a001fc8 0000001c T cyclesCounterInit
+misproyectos/proyecto1/out/proyecto1.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+misproyectos/proyecto1/out/proyecto1.elf:1a000ff4 0000000c T Board_SystemInit
